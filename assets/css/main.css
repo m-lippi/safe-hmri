@@ -4119,6 +4119,7 @@ input, select, textarea {
 	*/
 	.left-list{
 		text-align:left; 
+		font-size: 14pt;
 	}
 	
 	.wrapper.style3{
@@ -4144,3 +4145,18 @@ input, select, textarea {
 	#titleBar .title{
 		display:none !important; 
 	}
+	
+	#header nav {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    text-align: right;
+    padding-right: 1em;
+    background-color: #272833;
+	right:0em; 
+	border-bottom: #bf4b60;
+    border-bottom-style: none;
+    border-bottom-width: medium;
+	border-style: solid;
+	border-bottom-width: 2pt;
+}
